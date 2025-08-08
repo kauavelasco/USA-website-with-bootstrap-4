@@ -102,3 +102,30 @@ nav.bg-custom{
 @media (min-width: 1200px) {
 
 }
+
+/* Estilo do menu mobile */
+@media (max-width: 767.98px) {
+    .navbar-collapse {
+        background-color: white; /* fundo do menu */
+        padding: 10px;
+        border-radius: 0 0 8px 8px; /* bordas arredondadas na parte inferior */
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .navbar-nav .nav-link {
+        color: #333 !important; /* cor do texto */
+        font-weight: 500;
+        padding: 8px 0;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #1fbdd9 !important; /* cor no hover */
+        background-color: rgba(31, 189, 217, 0.1);
+        border-radius: 5px;
+    }
+
+    /* Centralizar links no menu mobile */
+    .navbar-nav {
+        text-align: center;
+    }
+}
