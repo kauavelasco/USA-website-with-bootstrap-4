@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav.bg-custom{
+    background-color: rgba(31, 189, 217, 0.3);
+}
+
+.transicionar{
+    transition: all 0.5s;
+}
+
+.transicionar:hover{
+    transform: translateY(-5px);
+}
+
+.transicionar-recursos{
+    transition: all 0.5s;
+}
+
+.transicionar-recursos:hover{
+    transform: translateY(-10px);
+}
+
+.nav-cor{
+    font-weight: 600;
+}
+
+.btn-custom{
+    border-radius: 20px;
+}
+
+#home{
+    background: rgb(255, 255, 255);
+}
+
+.caixa{
+    padding: 60px 0;
+    border-bottom: 2px solid #d4d4d4;
+}
+
+.img-shadow{
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.custom-hover{
+    transition: color 0.5s;
+}
+
+.custom-hover:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) {
+    h1{
+        font-size: 2em;
+    }
+
+    #pontos img{
+        margin-left: 4em;
+    }
+
+    .saiba img{
+        margin-left: 2em;
+    }
+
+    .disney img{
+        width: 332px;
+    }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #pontos img{
+        margin-left: 5em;
+    }
+    
+    .saiba img{
+        margin-left: 3em;
+    }
+}
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) {
+
+}
